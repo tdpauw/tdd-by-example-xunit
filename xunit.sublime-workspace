@@ -1,0 +1,471 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"t",
+				"type	Attr"
+			],
+			[
+				"build",
+				"buildDir"
+			],
+			[
+				"url",
+				"addinfourl  (class)"
+			],
+			[
+				"ur",
+				"urllib2"
+			],
+			[
+				"di",
+				"ditaOTJobBuildURL"
+			],
+			[
+				"uu",
+				"uuid4  (function)"
+			],
+			[
+				"dia",
+				"ditaOTJobURL"
+			],
+			[
+				"dita",
+				"ditaOTJobURL"
+			],
+			[
+				"jenks",
+				"jenkinsURL"
+			],
+			[
+				"open",
+				"urlopen  (function)"
+			],
+			[
+				"urllib",
+				"urllib2"
+			],
+			[
+				"urll",
+				"urllib"
+			],
+			[
+				"p",
+				"parse_args  (function)"
+			],
+			[
+				"H",
+				"HousingUnitTest"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 75.0,
+		"selected_items":
+		[
+			[
+				"liver",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Add Repository"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"console",
+				"Set Syntax: R Console"
+			],
+			[
+				"con",
+				"Set Syntax: R Console"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/thipau/projects/wot/budget/test/net/wot/budget/models/TransactionParserTest.java",
+		"/opt/sublime_text/changelog.txt",
+		"/home/thipau/.eclipse/org.eclipse.platform_4.3.2_1236463159_linux_gtk_x86/artifacts.xml",
+		"/home/thipau/projects/wot/camille/client/build.config.js",
+		"/home/thipau/projects/wot/camille/client/.jshintrc",
+		"/home/thipau/projects/wot/camille/client/bower.json",
+		"/home/thipau/projects/wot/camille/client/Gruntfile.js",
+		"/home/thipau/projects/wot/camille/client/src/common/security/login/LoginFormController.js",
+		"/home/thipau/projects/wot/camille/client/src/common/security/login/login.js",
+		"/home/thipau/projects/wot/camille/client/src/app/calendar/event.js",
+		"/home/thipau/projects/wot/camille/client/src/app/calendar/events/event.js",
+		"/home/thipau/projects/wot/camille/client/package.json",
+		"/home/thipau/projects/wot/camille/client/build/common/security/security.js",
+		"/home/thipau/projects/wot/camille/client/build/app/calendar/calendar.tpl.html",
+		"/home/thipau/projects/wot/camille/client/build/app/calendar/calendar.js",
+		"/home/thipau/projects/wot/camille/client/vendor/angular-ui-bootstrap/src/modal/modal.js",
+		"/home/thipau/projects/wot/camille/client/build/app/app.js",
+		"/home/thipau/projects/wot/camille/client/Gruntfile_ng-boilerplate.js",
+		"/home/thipau/projects/angularjs/yo/Gruntfile.js",
+		"/home/thipau/projects/wot/camille/client/Gruntfile (copy).js",
+		"/home/thipau/projects/wot/camille/client/src/less/variables.less",
+		"/home/thipau/projects/wot/camille/client/src/app/main/main.tpl.html",
+		"/home/thipau/projects/wot/camille/client/src/app/main/main.js",
+		"/home/thipau/projects/wot/camille/client/src/common/security/index.js",
+		"/home/thipau/projects/wot/camille/client/src/app/app.js",
+		"/home/thipau/projects/wot/camille/client/src/index.html",
+		"/home/thipau/projects/angularjs/angular-app/client/src/app/dashboard/dashboard.js",
+		"/home/thipau/projects/wot/camille/client/src/less/main.less",
+		"/home/thipau/projects/wot/camille/client/src/assets/app.css",
+		"/home/thipau/projects/wot/camille/client/build/index.html",
+		"/home/thipau/projects/wot/phi/public/stylesheets/phi.css",
+		"/home/thipau/projects/wot/camille/client/src/less/README.md",
+		"/home/thipau/projects/wot/camille/client/src/index2.html",
+		"/home/thipau/projects/wot/camille/client/build/templates-app.js",
+		"/home/thipau/projects/wot/camille/client/build/templates-common.js",
+		"/home/thipau/projects/angularjs/ng-boilerplate/src/app/app.js",
+		"/home/thipau/projects/angularjs/ng-boilerplate/src/app/home/home.js",
+		"/home/thipau/projects/angularjs/ng-boilerplate/src/index.html",
+		"/home/thipau/projects/wot/camille/client/src/common/security/login/form.tpl.html",
+		"/home/thipau/projects/wot/camille/client/src/common/security/login/toolbar.js",
+		"/home/thipau/projects/wot/camille/client/src/common/security/login/toolbar.tpl.html",
+		"/home/thipau/projects/wot/camille/client/src/common/security/authorization.js",
+		"/home/thipau/projects/wot/camille/client/src/common/security/interceptor.js",
+		"/home/thipau/projects/wot/camille/client/src/common/security/retryQueue.js",
+		"/home/thipau/projects/wot/camille/client/src/common/security/security.js",
+		"/home/thipau/projects/angularjs/ng-boilerplate/Gruntfile.js",
+		"/home/thipau/projects/angularjs/ng-boilerplate/build/karma-unit.js",
+		"/home/thipau/projects/angularjs/ng-boilerplate/build/index.html",
+		"/home/thipau/projects/play/zentasks/app/controllers/Projects.scala",
+		"/home/thipau/projects/play/securesocial/module-code/app/securesocial/core/SocialUser.scala",
+		"/home/thipau/projects/play/securesocial/module-code/app/securesocial/core/providers/utils/PasswordHasher.scala",
+		"/home/thipau/projects/play/zentasks/app/controllers/Application.scala",
+		"/home/thipau/projects/angularjs/angular-app/client/src/index.html",
+		"/home/thipau/projects/angularjs/angular-app/client/src/app/app.js",
+		"/home/thipau/projects/angularjs/angular-app/client/src/app/projects/projects.js",
+		"/home/thipau/projects/play/securesocial/module-code/app/securesocial/core/providers/utils/PasswordValidator.scala",
+		"/home/thipau/projects/swift/com.swift.css.commons/pom.xml",
+		"/home/thipau/projects/swift/com.swift.assist.connect/pom.xml",
+		"/home/thipau/projects/swift/com.swift.css.commons.table/pom.xml",
+		"/home/thipau/projects/play/securesocial/module-code/app/securesocial/core/UserService.scala",
+		"/home/thipau/projects/play/securesocial/module-code/app/securesocial/core/providers/UsernamePasswordProvider.scala",
+		"/home/thipau/projects/play/securesocial/module-code/app/securesocial/core/AuthenticationMethod.scala",
+		"/home/thipau/projects/play/securesocial/docs/src/manual/source/guide/password-plugins.md",
+		"/home/thipau/.cache/.fr-Riuo6I/evolutions/default/1.sql",
+		"/home/thipau/.cache/.fr-hJU1pW/phi-1.0-SNAPSHOT/start",
+		"/home/thipau/projects/play/securesocial/module-code/app/securesocial/core/SecuredActionInterceptor.scala",
+		"/home/thipau/projects/play/securesocial/module-code/app/securesocial/core/IdentityProvider.scala",
+		"/home/thipau/projects/play/securesocial/module-code/app/securesocial/core/Registry.scala",
+		"/home/thipau/projects/play/securesocial/samples/scala/demo/app/views/main.scala.html",
+		"/home/thipau/projects/play/securesocial/module-code/app/securesocial/core/SecureSocial.scala",
+		"/home/thipau/projects/play/securesocial/module-code/public/securesocial/bootstrap/css/bootstrap.css",
+		"/home/thipau/projects/wot/coowner/.gitignore",
+		"/home/thipau/projects/wot/phi/.gitignore",
+		"/home/thipau/projects/play/zentasks/conf/routes",
+		"/home/thipau/projects/play/forms/conf/routes",
+		"/home/thipau/projects/wot/coowner/app/net/wot/coowner/views/documents/upload.scala.html",
+		"/home/thipau/projects/play/computer-database/app/controllers/Application.scala",
+		"/home/thipau/projects/play/computer-database/conf/routes",
+		"/home/thipau/projects/wot/coowner/app/net/wot/coowner/views/documents/item.scala.html",
+		"/home/thipau/projects/wot/phi/conf/openshift.conf",
+		"/home/thipau/projects/play/computer-database/app/views/createForm.scala.html",
+		"/home/thipau/projects/play/computer-database/app/views/twitterBootstrapInput.scala.html",
+		"/home/thipau/projects/wot/securesocial/samples/scala/demo/app/views/index.scala.html",
+		"/home/thipau/projects/wot/securesocial/module-code/conf/messages",
+		"/home/thipau/projects/wot/securesocial/samples/scala/demo/app/views/main.scala.html",
+		"/home/thipau/projects/wot/zentasks/app/views/login.scala.html",
+		"/home/thipau/projects/wot/zentasks/app/views/main.scala.html",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/xsl/map2htmtoc/map2htmtocImpl.xsl",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/plugins/net.wot.dita2drupal/build_general.xml",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/plugins/net.wot.dita2drupal/build_dita2drupal.xml",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/plugins/org.dita.xhtml/build_dita2xhtml.xml",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/plugins/org.dita.xhtml/build_general.xml",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/plugins/net.wot.dita2drupal/plugin.xml",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/plugins/org.dita.xhtml/plugin.xml",
+		"/home/thipau/projects/wot/securesocial/module-code/app/securesocial/views/main.scala.html",
+		"/home/thipau/projects/wot/securesocial/module-code/app/securesocial/controllers/TemplatesPlugin.scala",
+		"/home/thipau/projects/wot/securesocial/module-code/app/securesocial/core/providers/utils/RoutesHelper.scala",
+		"/usr/local/eclipse-indigo/artifacts.xml",
+		"/home/thipau/projects/wot/coowner/.idea/workspace.xml",
+		"/home/thipau/projects/wot/coowner/conf/evolutions/default/1.sql",
+		"/home/thipau/projects/wot/coowner/app/net/wot/coowner/views/index.scala.html",
+		"/home/thipau/projects/wot/coowner/app/net/wot/coowner/views/main.scala.html",
+		"/home/thipau/projects/wot/coowner/app/net/wot/coowner/views/building.scala.html",
+		"/home/thipau/projects/wot/budget/app/net/wot/budget/views/transactions.scala.html",
+		"/home/thipau/projects/wot/coowner/app/net/wot/coowner/views/account.scala.html",
+		"/home/thipau/projects/wot/coowner/app/net/wot/coowner/views/login.scala.html",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/xsl/map2xhtmtoc.xsl",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/xsl/map2htmtoc.xsl",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/plugins/org.dita.xhtml/conductor.xml",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/plugins/net.wot.dita2drupal/conductor.xml",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/plugins/org.dita.xhtml/build_dita2xhtml_template.xml",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/output/dita.list",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/output/dita.xml.properties",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/samples/tasks/washingthecar.xml",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/samples/concepts/lawnmower.xml",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/samples/concepts/garageconceptsoverview.xml",
+		"/home/thipau/projects/dita/DITA-OT1.6.1easy/plugins/org.dita.xhtml/build_general_template.xml",
+		"/home/thipau/projects/dita/ditaasaservice/jenkins/jenkins-ditaot.py",
+		"/home/thipau/projects/dita/jenkins-ditaot.py",
+		"/home/thipau/dita/DITA-OT1.6.1easy/plugins/org.dita.pdf2/build.xml",
+		"/home/thipau/dita/DITA-OT1.6.1easy/plugins/org.dita.pdf2/plugin.xml",
+		"/home/thipau/dita/DITA-OT1.6.1easy/plugins/org.dita.pdf2/integrator.xml",
+		"/home/thipau/.config/sublime-text-2/Packages/User/Package Control.sublime-settings",
+		"/home/thipau/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/thipau/projects/wot/camille/client/vendor/bootstrap/less",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"moment.min",
+			"moment.mins",
+			"copy",
+			"vendorjs",
+			"vendorcss",
+			"modelInstance",
+			"LoginFormController",
+			"\n      ",
+			"filterForJS",
+			"  /**",
+			"index",
+			"recess",
+			"index",
+			"clean",
+			"watch",
+			"userConfig",
+			"recess",
+			"buildDir",
+			"recess",
+			"util",
+			"userConfig",
+			"filterForJS",
+			"    \n",
+			"appFiles",
+			"taskConfig",
+			"app_files.less",
+			"recess",
+			"watch",
+			"livereload",
+			"hero-unit",
+			"camille",
+			"appctrl\n",
+			"    appctrl\n",
+			"    \n",
+			"passwordinfo",
+			"---",
+			"simon",
+			"      \n",
+			"SecuredAction",
+			"Action",
+			"SecuredAction",
+			"Token",
+			"userpass",
+			"PasswordInfo",
+			"UserId",
+			"password",
+			"fillProfile",
+			"phi",
+			"svn",
+			"copy-css",
+			"dita.map.drupal",
+			".xhtml",
+			"dita.topics.drupal",
+			"dita.map.drupal",
+			".xhtml",
+			"preprocess",
+			"\"))\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".drupal"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "xunit.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"secur",
+				"build/common/security/security.js"
+			],
+			[
+				"app",
+				"build/app/app.js"
+			],
+			[
+				"calend",
+				"build/app/calendar/calendar.js"
+			],
+			[
+				"securedaction",
+				"module-code/app/securesocial/core/SecuredActionInterceptor.scala"
+			],
+			[
+				"",
+				"module-code/app/securesocial/core/providers/utils/PasswordHasher.scala"
+			],
+			[
+				"userservice",
+				"module-code/app/securesocial/core/UserService.scala"
+			],
+			[
+				"userpass",
+				"module-code/app/securesocial/core/providers/UsernamePasswordProvider.scala"
+			],
+			[
+				"passwordhash",
+				"module-code/app/securesocial/core/providers/utils/PasswordHasher.scala"
+			],
+			[
+				"building",
+				"app/net/wot/coowner/models/Building.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 275.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
