@@ -16,7 +16,6 @@ class WasRun(TestCase):
 		TestCase.__init__(self, name)
 
 	def setUp(self):
-		self.wasSetUp = 1
 		self.wasRun = None
 		self.log = "setUp "
 
