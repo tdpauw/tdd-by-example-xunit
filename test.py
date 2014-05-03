@@ -2,7 +2,7 @@
 class TestCase:
 	def __init__(self, name):
 		self.name = name
-		
+
 	def run(self):
 		method = getattr(self, self.name)
 		method()
@@ -17,6 +17,6 @@ class WasRun(TestCase):
 
 
 test = WasRun("testMethod")
-print test.wasRun
+assert(not test.wasRun)
 test.run()
-print test.wasRun
+assert(test.wasRun)
