@@ -16,7 +16,7 @@ class TestCase:
 			method()
 		except:
 			result.testFailed()
-			
+
 		self.tearDown()
 		return result
 
@@ -55,9 +55,9 @@ class WasRun(TestCase):
 
 class TestCaseTest(TestCase):
 	def testTemplateMethod(self):
-		self.test = WasRun("testMethod")
-		self.test.run()
-		assert("setUp testMethod tearDown" == self.test.log)
+		test = WasRun("testMethod")
+		test.run()
+		assert("setUp testMethod tearDown" == test.log)
 
 	def testResult(self):
 		test = WasRun("testMethod")
