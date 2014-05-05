@@ -1,3 +1,5 @@
+import inspect
+import sys
 
 class TestCase:
 	def __init__(self, name):
@@ -36,11 +38,23 @@ class TestResult:
 		return "%d run, %d failed" % (self.runCount, self.errorCount)
 
 class TestSuite:
-	def __init__(self):
+	def __init__(self, testCaseClass=None):
 		self.tests = []
+		if testCaseClass is not None:
+			self.addFromTestCase(testCaseClass)
+			
 
 	def add(self, test):
 		self.tests.append(test)
+
+	def addFromTestCase(self, testCaseClass):
+		methods = inspect.getmembers(testCaseClass, inspect.ismethod)
+		testMethods = filter(lambda(name, y): name.startswith('test'), methods)
+		tests = dict(testMethods).keys()
+		for test in tests:
+			module = __import__(__name__)
+			testCase = getattr(module, testCaseClass.__name__)
+			self.add(testCase(test))
 
 	def run(self, result):
 		for test in self.tests:
@@ -94,12 +108,17 @@ class TestCaseTest(TestCase):
 		suite.run(self.result)
 		assert("2 run, 1 failed" == self.result.summary())
 
-suite = TestSuite()
-suite.add(TestCaseTest("testTemplateMethod"))
-suite.add(TestCaseTest("testResult"))
-suite.add(TestCaseTest("testFailedResult"))
-suite.add(TestCaseTest("testFailedResultFormatting"))
-suite.add(TestCaseTest("testSuite"))
+	def testGetMembers(self):
+		methods = inspect.getmembers(WasRun, inspect.ismethod)
+		testMethods = filter(lambda(name, y): name.startswith('test'), methods)
+		assert(['testBrokenMethod', 'testMethod'] == dict(testMethods).keys())
+
+	def testSuiteFromTestCase(self):
+		suite = TestSuite(WasRun)
+		suite.run(self.result)
+		assert("2 run, 1 failed" == self.result.summary())
+
+suite = TestSuite(TestCaseTest)
 result = TestResult()
 suite.run(result)
 print result.summary()
