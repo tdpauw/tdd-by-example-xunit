@@ -48,8 +48,8 @@ class TestSuite:
 		self.tests.append(test)
 
 	def addFromTestCase(self, testCaseClass):
-		methods = inspect.getmembers(testCaseClass, inspect.ismethod)
-		testMethods = filter(lambda(name, y): name.startswith('test'), methods)
+		methods = inspect.getmembers(testCaseClass, inspect.isfunction)
+		testMethods = filter(lambda item: item[0].startswith('test'), methods)
 		tests = dict(testMethods).keys()
 		for test in tests:
 			module = __import__(__name__)
@@ -109,9 +109,9 @@ class TestCaseTest(TestCase):
 		assert("2 run, 1 failed" == self.result.summary())
 
 	def testGetMembers(self):
-		methods = inspect.getmembers(WasRun, inspect.ismethod)
-		testMethods = filter(lambda(name, y): name.startswith('test'), methods)
-		assert(['testBrokenMethod', 'testMethod'] == dict(testMethods).keys())
+		methods = inspect.getmembers(WasRun, inspect.isfunction)
+		testMethods = filter(lambda item: item[0].startswith('test'), methods)
+		assert(['testBrokenMethod', 'testMethod'] == list(dict(testMethods).keys()))
 
 	def testSuiteFromTestCase(self):
 		suite = TestSuite(WasRun)
@@ -121,4 +121,4 @@ class TestCaseTest(TestCase):
 suite = TestSuite(TestCaseTest)
 result = TestResult()
 suite.run(result)
-print result.summary()
+print(result.summary())
